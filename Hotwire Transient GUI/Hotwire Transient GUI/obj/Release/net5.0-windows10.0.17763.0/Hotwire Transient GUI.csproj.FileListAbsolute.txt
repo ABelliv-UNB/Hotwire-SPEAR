@@ -1,0 +1,88 @@
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.exe
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.deps.json
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.runtimeconfig.json
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.runtimeconfig.dev.json
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.pdb
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\LiveCharts.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\LiveCharts.Wpf.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\System.IO.Ports.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\runtimes\unix\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\WinRT.Runtime.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.csproj.AssemblyReference.cache
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\ButtonTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\CardTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\LabelTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\ScrollBarStyle.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\TestSelectorStyle.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\TextBlockStyle.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\TextBoxTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MainWindow.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\OkModal.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\SaveLocationModal.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\UnsavedTestModal.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\CalibrationMeasurementView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\CalibrationResultCompareView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\CalibrationView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\NewCalibrationView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\BarChartView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\ChartView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\DataView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\ErrorView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\PointsDisplay.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\TestResultsView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\History\HistoryView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\New Test\NewTestView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Settings\SettingsView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\ThemePreview.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\App.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI_MarkupCompile.cache
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI_MarkupCompile.lref
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\App.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MainWindow.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\OkModal.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\SaveLocationModal.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\UnsavedTestModal.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\CalibrationMeasurementView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\CalibrationResultCompareView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\CalibrationView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Calibration\NewCalibrationView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\BarChartView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\ChartView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\DataView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\ErrorView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\PointsDisplay.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Data\TestResultsView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\History\HistoryView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\New Test\NewTestView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\Settings\SettingsView.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\MVVM\View\ThemePreview.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\LeftMenuButtonTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\ListViewFileTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Themes\PointsDisplayTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.g.resources
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.AssemblyInfoInputs.cache
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.AssemblyInfo.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.csproj.CoreCompileInputs.cache
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.csproj.CopyComplete
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\refint\Hotwire Transient GUI.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.pdb
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Hotwire Transient GUI.genruntimeconfig.cache
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\ref\Hotwire Transient GUI.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\Microsoft.WindowsAPICodePack.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\FirstTimeSetup\Setup.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\ReceivingTestModal.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\FirstTimeSetup\Setup.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Release\net5.0-windows10.0.17763.0\Modals\ReceivingTestModal.baml

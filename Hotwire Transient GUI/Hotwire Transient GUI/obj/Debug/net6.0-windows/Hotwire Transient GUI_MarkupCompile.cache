@@ -1,0 +1,20 @@
+﻿Hotwire Transient GUI
+
+
+winexe
+C#
+.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\
+Hotwire_Transient_GUI
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\App.xaml
+171982269138
+1-1580800110
+30-1422975402
+1962051045602
+MainWindow.xaml;MVVM\View\Calibration\CalibrationView.xaml;MVVM\View\Calibration\UserControl1.xaml;MVVM\View\Data\ChartView.xaml;MVVM\View\Data\DataView.xaml;MVVM\View\Data\PointsDisplay.xaml;MVVM\View\Data\TestInformationView.xaml;MVVM\View\Data\TestResultsView.xaml;MVVM\View\History\HistoryView.xaml;MVVM\View\New Test\NewTestView.xaml;Themes\ButtonTheme.xaml;Themes\CardTheme.xaml;Themes\LabelTheme.xaml;Themes\LeftMenuButtonTheme.xaml;Themes\ListViewFileTheme.xaml;Themes\TestSelectorStyle.xaml;Themes\TextBlockStyle.xaml;
+
+True
+

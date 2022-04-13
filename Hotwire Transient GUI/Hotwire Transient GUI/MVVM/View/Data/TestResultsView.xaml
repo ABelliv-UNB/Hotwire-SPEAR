@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="Hotwire_Transient_GUI.MVVM.View.TestResultsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Hotwire_Transient_GUI.MVVM.View"
+             xmlns:Code="clr-namespace:Hotwire_Transient_GUI.Code"
+             mc:Ignorable="d" 
+             d:DesignHeight="140" d:DesignWidth="800">
+
+    <Border Style="{StaticResource CardTheme}">
+
+        <Grid Margin="10">
+
+            <Grid.RowDefinitions>
+                <!--<RowDefinition Height="35"/>-->
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!--<Label Content="Test Results" Grid.ColumnSpan="2" FontSize="20" Style="{StaticResource LabelTheme}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top"/>-->
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="15" />
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="15" />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    Text="Thermal Conductivity"
+                    Style="{DynamicResource TextStyle}"
+                    VerticalAlignment="Center"
+                    FontSize="16"
+                    />
+                
+                <TextBlock 
+                    Text="{Binding Path=ThermalConductivity, Converter={StaticResource roundDoubleConverter}}"
+                    Foreground="{DynamicResource MainColor}"
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    FontSize="36" 
+                    VerticalAlignment="Center"
+                    Style="{DynamicResource TextStyle}"/>
+                
+                <TextBlock 
+                    Text="W/mK" 
+                    Grid.Column="0" 
+                    Grid.Row="2"
+                    FontSize="16" 
+                    VerticalAlignment="Center" 
+                    Style="{DynamicResource TextStyle}"/>
+
+                <Border Grid.Column="1" Background="{DynamicResource ScrollBarColor}" Width="1" Grid.RowSpan="3"/>
+                <Border Grid.Column="3" Background="{DynamicResource ScrollBarColor}" Width="1" Grid.RowSpan="3"/>
+
+
+                <TextBlock 
+                    Text="Thermal Diffusivity"
+                    Style="{DynamicResource TextStyle}"
+                    VerticalAlignment="Center"
+                    FontSize="16"
+                    Grid.Column="2"/>
+                <!--Text="{Binding Path=ThermalDiffusivity, Converter={StaticResource roundDoubleConverter}}"-->
+                <TextBlock 
+                    Text="-"
+                    Foreground="{DynamicResource MainColor}" 
+                    Grid.Column="2"
+                    Grid.Row="1"
+                    FontSize="36"
+                    VerticalAlignment="Center" 
+                    Style="{DynamicResource TextStyle}"/>
+                
+                <TextBlock Text="m²/s"
+                           Grid.Column="2" 
+                           Grid.Row="2"
+                           FontSize="16"
+                           VerticalAlignment="Center"
+                           Style="{DynamicResource TextStyle}"/>
+
+                <TextBlock
+                    Text="Volumetric Heat Capacity"
+                    VerticalAlignment="Center"
+                    FontSize="16"
+                    Style="{DynamicResource TextStyle}" 
+                    Grid.Column="4"/>
+                <!--Text="{Binding Path=VolumetricHeatCapacity, Converter={StaticResource roundDoubleConverter}}"-->
+                <TextBlock 
+                    Text="-"
+                    Foreground="{DynamicResource MainColor}" 
+                    Grid.Column="4" 
+                    Grid.Row="1" 
+                    FontSize="36"  
+                    VerticalAlignment="Center"
+                    Style="{DynamicResource TextStyle}"/>
+                
+                <TextBlock
+                    Text="J/(m³K)" 
+                    Grid.Column="4" 
+                    Grid.Row="2"
+                    FontSize="16"
+                    VerticalAlignment="Center"
+                    Style="{DynamicResource TextStyle}"/>
+
+             </Grid>
+
+        </Grid>
+    </Border>
+
+</UserControl>

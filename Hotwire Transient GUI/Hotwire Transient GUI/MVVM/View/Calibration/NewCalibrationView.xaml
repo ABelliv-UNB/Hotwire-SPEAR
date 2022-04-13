@@ -1,0 +1,174 @@
+﻿<UserControl x:Class="Hotwire_Transient_GUI.MVVM.View.NewCalibrationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Hotwire_Transient_GUI.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border
+        Style="{StaticResource CardTheme}" 
+        MaxWidth="750"
+        MaxHeight="400">
+
+        <Grid Margin="30">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Grid 
+                Grid.Row="0"
+                Margin="20,0,20,0" 
+                VerticalAlignment="Center">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+
+
+                <TextBlock 
+                    Text="Material" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Center" 
+                    Style="{DynamicResource TextStyle}"
+                    FontSize="26" 
+                    Margin="0,0,20,0" 
+                    Grid.Row="0" 
+                    TextTrimming="CharacterEllipsis"/>
+
+                <ComboBox 
+                    ItemsSource="{Binding CalibrationReferences}"
+                    DisplayMemberPath="Material"
+                    SelectedItem="{Binding SelectedMaterial, Mode=TwoWay}"
+                    VerticalAlignment="Center" 
+                    FontSize="26" 
+                    Margin="20,10,20,10" 
+                    Grid.Row="0" 
+                    Grid.Column="1"
+                    HorizontalAlignment="Stretch"
+                    FontFamily="{DynamicResource myFont}"
+                    Foreground="{DynamicResource TextColor}" 
+                    Background="{DynamicResource AccentColor}"
+                                       
+                    Style="{StaticResource {x:Static ToolBar.ComboBoxStyleKey}}"
+                    >
+
+                    <ComboBox.ItemContainerStyle>
+
+                        <Style TargetType="{x:Type ComboBoxItem}">
+                            <Setter Property="Background" Value="{DynamicResource CardColor}"/>
+                            <Setter Property="BorderBrush" Value="{DynamicResource CardColor}"/>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsHighlighted" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource AccentColor}" />
+                                </Trigger>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource AccentColor}" />
+                                </Trigger>
+                            </Style.Triggers>
+
+                        </Style>
+                    </ComboBox.ItemContainerStyle>
+                    
+                </ComboBox>
+
+                <TextBlock
+                    Text="Thermal Conductivity"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Style="{DynamicResource TextStyle}"
+                    FontSize="26"
+                    Margin="0,0,20,0"
+                    Grid.Row="1"
+                    TextTrimming="CharacterEllipsis"/>
+                <TextBlock 
+                    Text="{Binding ReferenceTCString}" 
+                    VerticalAlignment="Center"
+                    Style="{DynamicResource TextStyle}"
+                    FontSize="26" Margin="20,0,0,0"
+                    Grid.Column="1"
+                    Grid.Row="1" />
+
+
+
+                <TextBlock 
+                    Text="Required Temperature" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Center" 
+                    Style="{DynamicResource TextStyle}"
+                    FontSize="26" 
+                    Margin="0,0,20,0" 
+                    Grid.Row="2" 
+                    TextTrimming="CharacterEllipsis"/>
+                <TextBlock 
+                    Text="{Binding ReferenceTempString}" 
+                    VerticalAlignment="Center"
+                    Style="{DynamicResource TextStyle}"
+                    FontSize="26" Margin="20,0,0,0"
+                    Grid.Column="1"
+                    Grid.Row="2"/>
+
+
+
+                <TextBlock 
+                    Text="Tolerance" 
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Style="{DynamicResource TextStyle}"
+                    FontSize="26"
+                    Margin="0,0,20,0"
+                    TextTrimming="CharacterEllipsis"
+                    Grid.Row="3"/>
+                <Grid
+                    Grid.Row="3" 
+                    Grid.Column="1"
+                    Margin="20,0,0,0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox 
+                        Text="{Binding ToleranceString}"
+                        Grid.Column="0"
+                        Style="{DynamicResource TextBoxTheme}"
+                        FontSize="26"
+                        Margin="0,10,0,10"
+                        x:Name="ToleranceTextBox"
+                        TextChanged="TextBox_ToleranceChanged"/>
+
+                    <TextBlock 
+                        Text="%"
+                        Style="{DynamicResource TextStyle}"
+                        FontSize="32"                        
+                        VerticalAlignment="Center"
+                        Grid.Column="1"
+                        Margin="20,0,0,0"/>
+                </Grid>
+            </Grid>
+
+            <Button 
+                Content="Calibrate" 
+                x:Name="CalibrateButton"
+                FontSize="28"
+                Width="250"
+                Style="{StaticResource ButtonTheme}"
+                Grid.Row="1" 
+                Command="{Binding StartCalibrationCommand}"/>
+
+
+        </Grid>
+
+    </Border>
+</UserControl>

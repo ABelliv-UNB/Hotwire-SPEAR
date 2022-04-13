@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="Hotwire_Transient_GUI.MVVM.View.ChartView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Hotwire_Transient_GUI.MVVM.View"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:oxy="http://oxyplot.codeplex.org/wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Border Style="{StaticResource CardTheme}"/>
+        <lvc:CartesianChart 
+            Margin="10"
+            DisableAnimations="True"
+            Hoverable="False"
+            DataTooltip="{x:Null}"
+            >
+            <lvc:CartesianChart.Series >
+
+                <lvc:ScatterSeries
+                    Title="Data" 
+                    Values="{Binding ChartPoints}"
+                    StrokeThickness="3"
+                    Fill="Transparent"
+                    Stroke="{DynamicResource MainColor}"
+                    MaxPointShapeDiameter="5"                                   
+                    />
+                
+                
+
+            </lvc:CartesianChart.Series>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis 
+                    Title="Temperature (°C)" 
+                    FontSize="12"
+                    LabelFormatter="{Binding yFormatter}" 
+                    Unit="1"
+                    FontFamily="{DynamicResource myFont}" 
+                    Foreground="{DynamicResource TextColor}"
+                    >
+                    <lvc:Axis.Separator>
+                        <lvc:Separator Stroke="{DynamicResource ScrollBarColor}"/>
+                    </lvc:Axis.Separator>
+                    
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+
+            <lvc:CartesianChart.AxisX>
+
+                <lvc:LogarithmicAxis
+                    LabelFormatter="{Binding xFormatter}" 
+                    Base="{Binding Base}"
+                    Title="Time (s)"
+                    FontSize="12"
+                    MinValue="-3"
+                    MaxValue="0"
+                    Unit="1"
+                    FontFamily="{DynamicResource myFont}" 
+                    Foreground="{DynamicResource TextColor}"
+                    >
+
+                    <lvc:Axis.Sections>
+                        <lvc:AxisSection Value="{Binding SelectionMin}" SectionWidth="{Binding SelectionWidth}" StrokeThickness="3" Stroke="Transparent">
+                            <lvc:AxisSection.Fill>
+                                <SolidColorBrush Color="{DynamicResource MainColorAsColor}" Opacity=".4"></SolidColorBrush>
+                            </lvc:AxisSection.Fill>
+                        </lvc:AxisSection>
+                    </lvc:Axis.Sections>
+
+                    <lvc:LogarithmicAxis.Separator>
+                        <lvc:Separator StrokeThickness="1" IsEnabled="True" Stroke="{DynamicResource ScrollBarColor}"></lvc:Separator>
+                    </lvc:LogarithmicAxis.Separator>
+                </lvc:LogarithmicAxis>
+            </lvc:CartesianChart.AxisX>
+
+        </lvc:CartesianChart>
+        
+    </Grid>
+</UserControl>

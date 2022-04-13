@@ -1,0 +1,18 @@
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\Hotwire Transient GUI.exe
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\Icons\Data.png
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\Hotwire Transient GUI.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\Hotwire Transient GUI.deps.json
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\Hotwire Transient GUI.runtimeconfig.json
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\Hotwire Transient GUI.pdb
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\Microsoft.Windows.SDK.NET.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\WinRT.Runtime.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\LiveCharts.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\LiveCharts.Wpf.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\System.IO.Ports.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\runtimes\unix\lib\netstandard2.0\System.IO.Ports.dll
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\bin\Release\net5.0-windows10.0.17763.0\publish\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll

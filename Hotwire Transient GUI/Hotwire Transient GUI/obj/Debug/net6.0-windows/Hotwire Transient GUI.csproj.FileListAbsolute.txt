@@ -1,0 +1,22 @@
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Hotwire Transient GUI.csproj.AssemblyReference.cache
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Themes\ButtonTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Themes\CardTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Themes\LabelTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Themes\ListViewFileTheme.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Themes\TestSelectorStyle.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Themes\TextBlockStyle.baml
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\Calibration\CalibrationView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\Calibration\UserControl1.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\Data\ChartView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\Data\DataView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\Data\PointsDisplay.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\Data\TestInformationView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\Data\TestResultsView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\History\HistoryView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\MVVM\View\New Test\NewTestView.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Hotwire Transient GUI_Content.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Hotwire Transient GUI_MarkupCompile.cache
+C:\Users\abelliv1\Documents\GitHub\C-Therm-Hotwire\Hotwire Transient GUI\Hotwire Transient GUI\obj\Debug\net6.0-windows\Hotwire Transient GUI_MarkupCompile.lref

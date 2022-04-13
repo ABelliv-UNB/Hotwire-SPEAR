@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotwire Transient GUI", "Hotwire Transient GUI\Hotwire Transient GUI.csproj", "{9B2ADB06-435B-4E70-8803-7BC50FAE1703}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HotWireTransientSetup", "HotWireTransientSetup\HotWireTransientSetup.vdproj", "{181528C8-16EA-4D00-BF3E-E24C0E2AC4C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B2ADB06-435B-4E70-8803-7BC50FAE1703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2ADB06-435B-4E70-8803-7BC50FAE1703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2ADB06-435B-4E70-8803-7BC50FAE1703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2ADB06-435B-4E70-8803-7BC50FAE1703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181528C8-16EA-4D00-BF3E-E24C0E2AC4C7}.Debug|Any CPU.ActiveCfg = Debug
+		{181528C8-16EA-4D00-BF3E-E24C0E2AC4C7}.Debug|Any CPU.Build.0 = Debug
+		{181528C8-16EA-4D00-BF3E-E24C0E2AC4C7}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C7265AD-FFE0-470F-AE26-BEDA83010D59}
+	EndGlobalSection
+EndGlobal

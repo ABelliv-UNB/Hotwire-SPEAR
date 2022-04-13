@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="Hotwire_Transient_GUI.MVVM.View.DataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Hotwire_Transient_GUI.MVVM.View" xmlns:data="clr-namespace:Hotwire_Transient_GUI.MVVM.View.Data"
+             xmlns:Code="clr-namespace:Hotwire_Transient_GUI.Code"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Grid SizeChanged="Grid_SizeChanged">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="275" x:Name="PointsDisplayCol"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        
+            <ItemsControl Grid.Row="0" ItemsSource="{Binding TestSelectButtons}" VerticalAlignment="Bottom" Background="{StaticResource AccentColor}"/>
+
+            <ScrollViewer Grid.Column="0" Grid.Row="1" Margin="0,0,0,10">
+            <StackPanel>
+
+                <local:ChartView
+                    x:Name="MainChart"
+                    DataContext="{Binding DataChart}" 
+                    Grid.Row="0"
+                    Margin="10"
+                    Height="210"
+                    SizeChanged="MainChart_SizeChanged">
+                </local:ChartView>
+
+                <local:TestResultsView 
+                    DataContext="{Binding SelectedTest}"
+                    Grid.Row="1"
+                    Margin="10"/>
+
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition MaxWidth="230"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <data:BarChartView 
+                        DataContext="{Binding ErrorChart}" 
+                        Grid.Row="0"
+                        Margin="10"
+                        Height="210">
+                    </data:BarChartView>
+                    <data:ErrorView Grid.Column="1" DataContext="{Binding SelectedTest}"/>
+                </Grid>
+                
+                
+                
+            </StackPanel>
+        </ScrollViewer>
+        </Grid>
+       
+        <Grid Grid.Column="1" Grid.Row="1" x:Name="RightGridPanel">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock DataContext="{Binding Test}"
+                       Text="{Binding Material}"
+                       Grid.Row="0"
+                       Grid.Column="1"                       
+                       HorizontalAlignment="right"
+                       VerticalAlignment="Bottom"
+                       Style="{DynamicResource TextStyle}"
+                       FontSize="16" Margin="10,0,10,0"/>
+
+            <TextBlock DataContext="{Binding Test}"
+                       Text="{Binding Date}"
+                       Grid.Row="1"
+                       Grid.Column="1"                       
+                       HorizontalAlignment="right"
+                       VerticalAlignment="Bottom"
+                       Style="{DynamicResource TextStyle}"
+                       FontSize="16" Margin="10,0,10,0"/>
+
+            <local:PointsDisplay 
+                DataContext="{Binding SelectedTest}"
+                Margin="10"
+                Grid.Column="1"
+                Grid.Row="2"
+                >
+            </local:PointsDisplay>
+            <!--<Button Grid.Row="0" Content="Save" FontSize="20" Margin="5,0,5,0" Style="{StaticResource ButtonTheme}" Command="{Binding SaveTest}"/>-->
+
+        </Grid>
+
+    </Grid>
+</UserControl>

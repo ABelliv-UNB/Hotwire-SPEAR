@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows10.0.17763.0</TargetFramework>
+    <RootNamespace>Hotwire_Transient_GUI</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <StartupObject>Hotwire_Transient_GUI.App</StartupObject>
+    <ApplicationIcon>spear_T.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Poppins-Medium.ttf" />
+    <None Remove="Icons\Calibrate.png" />
+    <None Remove="Icons\Data.png" />
+    <None Remove="Icons\Exit.png" />
+    <None Remove="Icons\History.png" />
+    <None Remove="Icons\NewTest.png" />
+    <None Remove="Icons\Save.png" />
+    <None Remove="Icons\Settings.png" />
+    <None Remove="Images\C-ThermLogo.png" />
+    <None Remove="Images\UNBLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\UNBLogo.png" />
+    <Resource Include="spear_T.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Shell" Version="1.1.0" />
+    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
+    <PackageReference Include="WindowsAPICodePack-Core" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Model\" />
+    <Folder Include="Tests\" />
+    <Folder Include="Windows\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Poppins-Medium.ttf" />
+    <Resource Include="Icons\Data.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\Calibrate.png" />
+    <Resource Include="Icons\Exit.png" />
+    <Resource Include="Icons\History.png" />
+    <Resource Include="Icons\Save.png" />
+    <Resource Include="Icons\Settings.png" />
+    <Resource Include="Recycle Bin\Poppins-Medium.ttf" />
+    <Resource Include="Icons\NewTest.png" />
+    <Resource Include="Images\C-ThermLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

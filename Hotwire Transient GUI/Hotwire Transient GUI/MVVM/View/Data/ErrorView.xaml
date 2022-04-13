@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="Hotwire_Transient_GUI.MVVM.View.Data.ErrorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Hotwire_Transient_GUI.MVVM.View.Data"
+             mc:Ignorable="d" 
+             d:DesignHeight="210" d:DesignWidth="200">
+
+    <Border
+            Grid.Column="1"
+            Style="{DynamicResource CardTheme}"
+            Margin="10">
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock 
+                Text="Average Error (°C)"
+                VerticalAlignment="Center"
+                Style="{DynamicResource TextStyle}"
+                FontSize="20"/>
+            
+            <TextBlock 
+                Text="{Binding Path=AverageError, Converter={StaticResource roundDoubleConverter}}" 
+                VerticalAlignment="Center" 
+                Foreground="{StaticResource MainColor}"
+                Style="{DynamicResource TextStyle}"
+                FontSize="36" Grid.Row="1"/>
+            
+            <TextBlock Text="Max (°C)"
+                       Style="{DynamicResource TextStyle}"
+                       VerticalAlignment="Center" FontSize="20"
+                       Grid.Row="2"/>
+            
+            <TextBlock 
+                Text="{Binding Path=LargestError, Converter={StaticResource roundDoubleConverter}}"
+                VerticalAlignment="Center" 
+                Foreground="{DynamicResource MainColor}"
+                Style="{DynamicResource TextStyle}"
+                FontSize="36"
+                Grid.Row="3"/>
+            
+
+        </Grid>
+
+    </Border>
+
+</UserControl>

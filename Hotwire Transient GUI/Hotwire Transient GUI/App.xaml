@@ -1,0 +1,70 @@
+﻿<Application x:Class="Hotwire_Transient_GUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Hotwire_Transient_GUI"
+             xmlns:viewModel="clr-namespace:Hotwire_Transient_GUI.MVVM.ViewModel"
+             xmlns:view="clr-namespace:Hotwire_Transient_GUI.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/LeftMenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/LabelTheme.xaml"/>
+                <ResourceDictionary Source="Themes/ListViewFileTheme.xaml"/>
+                <ResourceDictionary Source="Themes/CardTheme.xaml"/>
+                <ResourceDictionary Source="Themes/TestSelectorStyle.xaml"/>
+                <ResourceDictionary Source="Themes/ButtonTheme.xaml"/>
+                <ResourceDictionary Source="Themes/PointsDisplayTheme.xaml"/>
+                <ResourceDictionary Source="Themes/TextBlockStyle.xaml"/>
+                <ResourceDictionary Source="Themes/ScrollBarStyle.xaml"/>
+                <ResourceDictionary Source="Themes/TextBoxTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            
+            
+            <DataTemplate DataType="{x:Type viewModel:DataViewModel}">
+                <view:DataView/>
+            </DataTemplate>
+
+
+            <DataTemplate DataType="{x:Type viewModel:HistoryViewModel}">
+                <view:HistoryView/>
+            </DataTemplate>
+
+
+            <DataTemplate DataType="{x:Type viewModel:NewTestViewModel}">
+                <view:NewTestView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:CalibrationViewModel}">
+                <view:CalibrationView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:NewCalibrationViewModel}">
+                <view:NewCalibrationView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+                <view:SettingsView/>
+            </DataTemplate>
+
+            <SolidColorBrush x:Key="MainColor" x:Name="MainColor" Color="#5070FF"/>
+            <Color x:Key="MainColorAsColor" R="#50" G="#70" B="#FF"/>
+            <SolidColorBrush x:Key="AccentColor" Color="#F8F8F8"/>
+            <SolidColorBrush x:Key="CardColor" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="TextColor" Color="#000000"/>
+            <Color x:Key="GlowColor" A="#FF" R="#EE" G="#EE" B="#EE"/>
+            <SolidColorBrush x:Key="ScrollBarColor" Color="#CCCCCC"/>
+
+            <FontFamily x:Key="myFont">/Fonts/#Poppins</FontFamily>
+
+
+            <Style x:Key="CustomFont">
+                <Setter Property="TextElement.FontFamily"
+                        Value="/Fonts/#Poppins"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
